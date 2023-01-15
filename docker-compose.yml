@@ -3,7 +3,7 @@ version: '3.5'
 services:
 
   eventstore:
-    container_name: marketplace-ch13-eventstore
+    container_name: users-eventstore
     image: eventstore/eventstore
     ports:
         - 2113:2113
@@ -13,7 +13,7 @@ services:
       - EVENTSTORE_EXT_TCP_PORT=1113
 
   ravendb:
-    container_name: marketplace-ch13-ravendb
+    container_name: users-ravendb
     image: ravendb/ravendb
     ports:
       - 8080:8080
