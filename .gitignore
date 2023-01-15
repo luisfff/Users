@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EventSourcing/bin/Debug
+/EventSourcing/obj
+/.vs/Users/FileContentIndex/read.lock
+/.vs/Users/FileContentIndex/3ce6d60b-1f45-40e6-8e79-0802f799f297.vsidx
+/EventStore/bin/Debug
+/EventStore/obj
+/RavenDb/bin/Debug
+/RavenDb/obj
+/Users.Api/bin/Debug
+/Users.Application/bin/Debug
+/Users.Application/obj
+/Users.Domain/bin/Debug
+/Users.Domain/obj/Debug/net7.0/ref/Marketplace.Users.Domain.dll
+/Users.Domain/obj
+/Users.Messages/bin/Debug
+/WebApi/bin/Debug
+/WebApi/obj

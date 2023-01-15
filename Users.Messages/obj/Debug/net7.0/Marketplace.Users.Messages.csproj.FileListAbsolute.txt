@@ -1,0 +1,12 @@
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\bin\Debug\net7.0\Marketplace.Users.Messages.deps.json
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\bin\Debug\net7.0\Marketplace.Users.Messages.dll
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\bin\Debug\net7.0\Marketplace.Users.Messages.pdb
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.csproj.AssemblyReference.cache
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.AssemblyInfoInputs.cache
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.AssemblyInfo.cs
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.csproj.CoreCompileInputs.cache
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.dll
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\refint\Marketplace.Users.Messages.dll
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\Marketplace.Users.Messages.pdb
+C:\Luis\market\Chapter13\src\Marketplace.Users.Messages\obj\Debug\net7.0\ref\Marketplace.Users.Messages.dll

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Marketplace</name>
+    </assembly>
+    <members>
+        <member name="T:Marketplace.Infrastructure.Profanity.PurgomalumClient">
+            <summary>
+                PurgoMalum is a simple, free, RESTful web service for filtering and removing content of profanity, obscenity and
+                other unwanted text.
+                Check http://www.purgomalum.com
+            </summary>
+        </member>
+    </members>
+</doc>

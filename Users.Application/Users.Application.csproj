@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="RavenDB.Client" Version="5.4.100" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\EventStore\EventStore.csproj" />
+    <ProjectReference Include="..\RavenDb\RavenDb.csproj" />
+    <ProjectReference Include="..\Users.Domain\Users.Domain.csproj" />
+    <ProjectReference Include="..\Users.Messages\Users.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

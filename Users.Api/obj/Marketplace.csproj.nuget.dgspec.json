@@ -1,0 +1,679 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace\\Marketplace.csproj": {}
+  },
+  "projects": {
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj",
+        "projectName": "Marketplace.EventSourcing",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DeepCloner": {
+              "target": "Package",
+              "version": "[0.10.4, )"
+            },
+            "LibLog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj",
+        "projectName": "Marketplace.EventStore",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[22.0.0, )"
+            },
+            "LibLog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Interactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\Marketplace.RavenDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\Marketplace.RavenDb.csproj",
+        "projectName": "Marketplace.RavenDb",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\Marketplace.RavenDb.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "LibLog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[5.4.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\Marketplace.Users.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\Marketplace.Users.Domain.csproj",
+        "projectName": "Marketplace.Users.Domain",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\Marketplace.Users.Domain.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj",
+        "projectName": "Marketplace.Users.Messages",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\Marketplace.Users.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\Marketplace.Users.csproj",
+        "projectName": "Marketplace.Users",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\Marketplace.Users.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\Marketplace.RavenDb.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.RavenDb\\Marketplace.RavenDb.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\Marketplace.Users.Domain.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Domain\\Marketplace.Users.Domain.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users.Messages\\Marketplace.Users.Messages.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\Marketplace.WebApi.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\Marketplace.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[5.4.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\Marketplace.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\Marketplace.WebApi.csproj",
+        "projectName": "Marketplace.WebApi",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\Marketplace.WebApi.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luis\\market\\Chapter13\\src\\Marketplace\\Marketplace.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luis\\market\\Chapter13\\src\\Marketplace\\Marketplace.csproj",
+        "projectName": "Marketplace",
+        "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace\\Marketplace.csproj",
+        "packagesPath": "C:\\Users\\LuísBaião\\.nuget\\packages\\",
+        "outputPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuísBaião\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventSourcing\\Marketplace.EventSourcing.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.EventStore\\Marketplace.EventStore.csproj"
+              },
+              "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\Marketplace.Users.csproj": {
+                "projectPath": "C:\\Luis\\market\\Chapter13\\src\\Marketplace.Users\\Marketplace.Users.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ben.Demystifier": {
+              "target": "Package",
+              "version": "[0.4.1, )"
+            },
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[22.0.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[5.4.100, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
