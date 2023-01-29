@@ -1,10 +1,17 @@
-# README #
+### Users API
 
-Users Api
+## Users API
+A solution for reproducing user profile functionalities, built with event sourcing and SQRS, using RavenDB as the database.
 
-## Users api Project
+## Features
+User registration
+User FullName Update 
+Get User by user Id
 
- 
-This project consists of a solution capable of reproducing small functionalities for a user profile.
-The proejct uses event sourcing and SQRS.
-RavenDb is used as the database.
+## Getting Started
+Run database in container: docker-compose up
+Run the project: dotnet run
+Access the API at http://localhost:5177
+
+## Documentations
+API endpoints and request/response samples can be found in the Swagger UI.
