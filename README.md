@@ -14,11 +14,11 @@ Get User by user Id
 
 Clone the repository: git clone https://github.com/luisfff/users
 
-Restore dependencies: dotnet restore
+Restore dependencies: `dotnet restore`
 
-Run database in container: docker-compose up
+Run database in container: `docker-compose up`
 
-Run the project: dotnet run
+Run the project: `dotnet run`
 
 Access the API at http://localhost:5177
 
